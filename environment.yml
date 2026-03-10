@@ -1,0 +1,16 @@
+name: vehicle-eye
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+    - streamlit>=1.32.0
+    - ultralytics>=8.2.0
+    - opencv-python-headless>=4.9.0
+    - Pillow>=10.2.0
+    - numpy>=1.26.0
+    - imageio[ffmpeg]>=2.34.0
+    - pandas>=2.2.0
+    - lapx>=0.5.5
