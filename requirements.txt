@@ -5,3 +5,4 @@ Pillow>=10.2.0
 numpy>=1.26.0
 imageio[ffmpeg]>=2.34.0
 pandas>=2.2.0
+timm>=0.9.0
